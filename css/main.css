@@ -9,32 +9,40 @@ a {
    }
 
 .site-header{
-    background-color: rgb(23,29,37); /* rgb(26,42,60)*/
-    height: 100px;
-}
-
-table.text{
-    color: white;
-    width: 50%;
-    border-spacing: 10px;
-    margin: 0 auto;
+    background-color: rgb(23,29,37); /*задний фон головы*/
+    height: 100px; /*размер заднего фона головы*/
 }
 
 .head-panel {
-    padding: 1%;
+    padding: 2%;
 }
 
-table.text td{
-    vertical-align: top;
+.game-icon{
+    padding: 10px;
+    float: left;
+}
+
+table.text{
+    color: white; /*цвет текста в таблице*/
+    border-spacing: 10px; /*расстояние между объектами*/
+    margin: 0 auto; /*выравнивание*/
+    width: 50%;
+
 }
 
 td.head-text{
-    text-align: left;
+    color: rgb(160, 12, 160);
+    margin-right: 100px;
 }
 
-td.head_but{
-    text-align: right;
-}
+
+
+
+
+
+
+
+
 
 .container-body{
     background-color: rgb(26,42,60);
