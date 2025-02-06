@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #fff; /* Цвет ссылок */
+    text-decoration: none;
+   }
+
+.site-header{
+    background-color: rgb(23,29,37); /* rgb(26,42,60)*/
+    height: 100px;
+}
+
+.head-panel{
+
+}
+
+table.text{
+    color: white;
+    width: 50%;
+    border-spacing: 10px;
+}
+
+table.text td{
+    vertical-align: top;
+}
+
+td.head-text{
+    text-align: left;
+}
+
+td.head_but{
+    text-align: right;
+}
+
+.container-body{
+    background-color: rgb(26,42,60);
+    height: 1000px;
+}
