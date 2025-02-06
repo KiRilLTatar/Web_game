@@ -13,8 +13,15 @@ a {
     height: 100px; /*размер заднего фона головы*/
 }
 
+.head-text {
+    display: flex;
+    align-items: center; /* Выравнивание по вертикали */
+    gap: 10px; /* Отступ между изображением и текстом */
+
+}
+
 .head-panel {
-    padding: 2%;
+    display: flex;
 }
 
 .game-icon{
@@ -26,7 +33,9 @@ table.text{
     color: white; /*цвет текста в таблице*/
     border-spacing: 10px; /*расстояние между объектами*/
     margin: 0 auto; /*выравнивание*/
-    width: 50%;
+    width: 100%;
+    margin-bottom: 2;
+
 
 }
 
@@ -34,14 +43,6 @@ td.head-text{
     color: rgb(160, 12, 160);
     margin-right: 100px;
 }
-
-
-
-
-
-
-
-
 
 
 .container-body{
