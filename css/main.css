@@ -36,26 +36,3 @@ td.head_but{
     height: 1000px;
 }
 
-#but {
-    background-color: blue;
-    color: white;
-    margin-top: 100px;
-    margin-left: 100px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    content: 'Новый текст';
-}
-
-#but::after {
-    content: 'Новый текст';
-}
-
-#but:hover {
-    background-color: rgb(29, 98, 121);
-    border: 3px dotted #3a7999;
-	color: #3a7999;
-    background: rgba(0,0,0,0);
-}
