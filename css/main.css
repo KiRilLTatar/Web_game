@@ -8,41 +8,46 @@ a {
     text-decoration: none;
    }
 
-.site-header{
+header.site-header{
     background-color: rgb(23,29,37); /*задний фон головы*/
     height: 100px; /*размер заднего фона головы*/
-}
-
-.head-text {
-    display: flex;
-    align-items: center; /* Выравнивание по вертикали */
-    gap: 10px; /* Отступ между изображением и текстом */
-
-}
-
-.head-panel {
-    display: flex;
-}
-
-.game-icon{
-    padding: 10px;
-    float: left;
 }
 
 table.text{
     color: white; /*цвет текста в таблице*/
     border-spacing: 10px; /*расстояние между объектами*/
     margin: 0 auto; /*выравнивание*/
-    width: 100%;
-    margin-bottom: 2;
-
-
+    width: 90%; /*ширина таблицы*/
 }
 
-td.head-text{
+table.text td{
+    width: 100px;
+}
+
+td.head-text {
+    display: flex; /*выравнивание элементов в строку */
+    align-items: center; /* Выравнивание по вертикали */
+    gap: 10px; /* Отступ между изображением и текстом */
     color: rgb(160, 12, 160);
-    margin-right: 100px;
+    margin-right: 50px;
+    font-size: 30px;
+    font-weight: 1000;
 }
+
+td.authorization{
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 .container-body{
