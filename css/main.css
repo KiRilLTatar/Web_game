@@ -1,41 +1,55 @@
+
+
 * {
     margin: 0;
     padding: 0;
 }
 
 a {
-    color: #fff; /* Цвет ссылок */
+    color: #fff;
     text-decoration: none;
    }
-
-header.site-header{
-    background-color: rgb(23,29,37); /*задний фон головы*/
-    height: 100px; /*размер заднего фона головы*/
+  
+a:active {
+    color: #1a62fd;
 }
 
-table.text{
-    color: white; /*цвет текста в таблице*/
-    border-spacing: 10px; /*расстояние между объектами*/
-    margin: 0 auto; /*выравнивание*/
-    width: 90%; /*ширина таблицы*/
+body.body{
+    background-color: rgb(26,42,60);
+    height: auto;
+    margin: 0;
 }
 
-table.text td{
-    width: 100px;
+header.header{
+    background-color: rgb(23,29,37);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
 }
 
-td.head-text {
-    display: flex; /*выравнивание элементов в строку */
-    align-items: center; /* Выравнивание по вертикали */
-    gap: 10px; /* Отступ между изображением и текстом */
-    color: rgb(160, 12, 160);
-    margin-right: 50px;
+header.header a{
+    margin:20px;  
+}
+
+div.icon{
+    display: flex;
+    padding: 1%;
+    align-items: center;
+}
+
+div.icon a{
+    color:rgb(170, 37, 170);
     font-size: 30px;
     font-weight: 1000;
 }
 
-td.authorization{
-    margin-left: 50px;
+div.menu{
+    margin: 0 auto;
+}
+
+div.login{
+    padding: 1%;
 }
 
 
@@ -43,15 +57,4 @@ td.authorization{
 
 
 
-
-
-
-
-
-
-
-.container-body{
-    background-color: rgb(26,42,60);
-    height: 1000px;
-}
 

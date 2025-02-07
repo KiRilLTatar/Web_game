@@ -1,0 +1,21 @@
+div.panel{
+    background-color: rgb(23,29,37);
+    width: 50%;
+    height: 2300px;
+    margin: 10px auto;
+}
+
+div.game{
+    display: flex;
+    padding: 30px;
+}
+
+div.text{
+    margin: 10px;
+    color:white;
+    font-size: 18px;
+}
+
+p.name{
+    font-size: 35px;
+}
