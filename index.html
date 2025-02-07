@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DREAM</title>
     <link rel="stylesheet"href="css/main.css">
+
 </head>
 <body class="body">
     <header class="header">
@@ -19,12 +20,34 @@
             <a href="support.html" >ПОДДЕРЖКА</a>
         </div>
         <div class="login">
-            <a href="bla-bla-bla" >ВХОД</a>
+
+            <a id="loginBtn">Войти</a>
             <a href="bla-bla-bla" >РЕГИСТРАЦИЯ</a>
         </div>
     </header>
     <div class="panel">
 
     </div>
+    <!-- Модальное окно -->
+    <div id="registerModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Регистрация</h2>
+            <form>
+                <label for="reg-email">Email:</label>
+                <input type="email" id="reg-email" required>
+
+                <label for="reg-password">Пароль:</label>
+                <input type="password" id="reg-password" required>
+
+                <label for="reg-confirm-password">Повторите пароль:</label>
+                <input type="password" id="reg-confirm-password" required>
+
+                <button type="submit">Зарегистрироваться</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
 </body>
 </html>
